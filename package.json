@@ -8,7 +8,7 @@
         "preview": "vite preview",
         "test": "yarn jest",
         "lint": "eslint src/ --ignore-path ./.eslintignore --ext .ts,.tsx,.js,.jsx",
-        "format": "prettier --check --write src/",
+        "format": "prettier --write src/",
         "tsc:check": "tsc --noEmit --skipLibCheck"
     },
     "dependencies": {
